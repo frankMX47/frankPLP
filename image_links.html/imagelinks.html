@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <style>
+    body {
+      font-family: 'Ojuju', 'Viaoda Libre Regular', 'sans-serif';
+      margin: 0;
+      padding: 0;
+      background-color: #2d332f;
+    }
+
+    .section {
+      padding: 30px;
+      margin-bottom: 20px;
+    }
+
+    .home {
+      background-color: #2d332f;
+      text-align: center;
+      color: #fff;
+    }
+
+    .home h1 {
+      font-size: 3em;
+      margin-bottom: 15px;
+    }
+
+    .home img {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+
+    .gallery {
+      background-color: #0c5e55;
+      color: #fff;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 10px;
+      text-align: center;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .menu {
+      background-color: #a493b5;
+      color: #fff;
+      padding: 20px 0;
+    }
+
+    .menu ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .menu li {
+      margin-bottom: 10px;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .menu img {
+      width: 90%;
+      margin-right: 10px;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <section class="section home">
+    <h1>Welcome to My Website!</h1>
+    <a href="https://powerlearnproject.org/"><img src="tech0.jpg" alt="Nature Image 1"></a>
+    <p>This is a webpage showcasing different sections/links/images using HTML.</p>
+  </section>
+
+  <section class="section gallery">
+    <h2>Nature Gallery</h2>
+    <a href="https://www.wwfkenya.org/"><img src="nature1.jpg" alt="Nature Image 1"></a>
+    <a href="https://asknature.org/"><img src="nature2.jpg" alt="Nature Image 2"></a>  
+    <a href="https://www.worldwildlife.org/"><img src="nature3.jpg" alt="Nature Image 3"></a>
+     
+    
+    </section>
+
+  <section class="section menu">
+    <h2>Menu</h2>
+    <ul>
+      <li>
+        <a href="#">Cake <img src="food1.jpg" alt="Cake Image"></a>
+      </li>
+      <li>
+        <a href="#">Burger <img src="food2.jpg" alt="Burger Image"></a>
+      </li>
+      <li>
+        <a href="#">Pasta <img src="food3.jpg" alt="Pasta Image"></a>
+      </li>
+    </ul>
+  </section>
+</body>
+</html>
