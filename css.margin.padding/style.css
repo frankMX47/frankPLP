@@ -1,0 +1,66 @@
+body {
+    font-family: 'Imbue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1; /* Light background for main content */
+  }
+  
+  header {
+    background-color: #7796a6;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    margin: 0; /* Remove default top margin */
+    color: #313b2f; /* Dark text color */
+  }
+  
+  #introduction {
+    background-color: #e0d90b;
+    padding: 20px;
+    margin-top: 20px; /* Add spacing after header */
+  }
+  
+  #skills {
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px; /* Spacing between list items */
+    padding: 10px 20px;
+    border: 1px solid #47578f;  /* Border for each skill */
+  }
+  
+  #contact {
+    background-color: #7796a6;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  a {
+    color: #e0d90b; /* Yellow color for links */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Responsive Design (Media Queries) */
+  @media only screen and (max-width: 768px) {
+    h1, h2 {
+      font-size: 1.5em; /* Adjust heading sizes for smaller screens */
+    }
+  
+    p {
+      font-size: 1em; /* Adjust paragraph size for smaller screens */
+    }
+  
+    li {
+      font-size: 0.9em; /* Adjust list item size for smaller screens */
+    }
+  }
+  
