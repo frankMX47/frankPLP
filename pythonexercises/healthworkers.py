@@ -48,3 +48,6 @@ print()
 nurse.display_info()
 print()
 doctor.display_info()
+
+#This code demonstrates the use of inheritance in Python, where subclasses inherit behavior and attributes from a superclass and can extend or modify that behavior as needed. It also illustrates polymorphism, where different subclasses 
+# provide their own implementations of a method (in this case, display_info) to suit their specific needs.#
