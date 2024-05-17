@@ -1,0 +1,61 @@
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #4d0d08;
+    background-color: #0a2552;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  #new-task {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  #add-task {
+    background-color: #4d0d08;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  #add-task:hover {
+    background-color: #333;
+  }
+  
+  #task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #task-list li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  #task-list li span.completed {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+  
